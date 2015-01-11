@@ -4,5 +4,6 @@ public class ItemBlindsCatalog extends ItemMain{
     public ItemBlindsCatalog(){
         super();
         this.setUnlocalizedName("blindsCatalog");
+        this.maxStackSize = 1;
     }
 }

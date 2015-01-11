@@ -1,5 +1,6 @@
 package com.dcubed33.shutters;
 
+import com.dcubed33.shutters.block.ModBlocks;
 import com.dcubed33.shutters.handler.ConfigurationHandler;
 import com.dcubed33.shutters.init.ModItems;
 import com.dcubed33.shutters.proxy.IProxy;
@@ -27,6 +28,8 @@ public class Shutters {
         LogHelper.info("Pre-Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
