@@ -8,13 +8,14 @@ public class ConfigurationHandler {
     public static void init(File configFile){
         //Create config object from given configuration file
         Configuration configuration = new Configuration(configFile);
+        boolean configValue = false;
 
         try {
             //load the configuration file
             configuration.load();
 
             //Read in properties from config file
-            boolean configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an examply config value").getBoolean(true);
+            configValue = configuration.get("Basic", "configValue", true, "This is an example config value").getBoolean(true);
         }
         catch(Exception e){
             //log the exception
