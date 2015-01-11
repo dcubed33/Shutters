@@ -1,0 +1,31 @@
+[02:35:51] [main/INFO]: Setting user: Player348
+[02:35:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[02:36:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shutters
+[02:36:01] [Sound Library Loader/INFO]: Sound engine started
+[02:36:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:36:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:36:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Shutters
+[02:36:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:36:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:36:03] [Sound Library Loader/INFO]: Sound engine started
+[02:36:07] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:36:07] [Server thread/INFO]: Generating keypair
+[02:36:07] [Server thread/INFO]: Preparing start region for level 0
+[02:36:08] [Server thread/INFO]: Changing view distance to 12, from 10
+[02:36:08] [Server thread/INFO]: Player348[local:E:d83c4a11] logged in with entity id 125 at (-241.31648786582272, 4.0, 719.6414468626649)
+[02:36:08] [Server thread/INFO]: Player348 joined the game
+[02:36:39] [Server thread/INFO]: Saving and pausing game...
+[02:36:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:36:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:36:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:39:19] [Server thread/INFO]: Saving and pausing game...
+[02:39:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:39:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:39:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:39:20] [Server thread/INFO]: Stopping server
+[02:39:20] [Server thread/INFO]: Saving players
+[02:39:20] [Server thread/INFO]: Saving worlds
+[02:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:39:20] [Client thread/INFO]: Stopping!
