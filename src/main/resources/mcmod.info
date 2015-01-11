@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Shutters",
+  "name": "Shutters",
+  "version": "0.1",
+  "description": "A mod that adds many different shutters as windows, amazing doors, and much more!",
+  "credits": "Thanks to the group for making this an enjoyable experience for me! A special thanks to Oyonderbear for textures, and Novacreeper43 and Wewenet2 for coding.",
+  "logoFile": "",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Dcubed33", "Oyonderbear", "Wewenet2", "Novacreeper43"],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": []
+}
+]
