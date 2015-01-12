@@ -1,5 +1,6 @@
 package com.dcubed33.shutters.block;
 
+import com.dcubed33.shutters.creativetab.CreativeTabShutters;
 import com.dcubed33.shutters.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,6 +11,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 public class BlockMain extends Block {
     public BlockMain(Material material){
         super(material);
+        this.setCreativeTab(CreativeTabShutters.Shutters_TAB);
     }
 
     public BlockMain(){
