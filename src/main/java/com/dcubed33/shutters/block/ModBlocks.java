@@ -5,9 +5,9 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {
-    public static final BlockMain shutters = new BlockOakShutters();
+    public static final BlockMain oakShutter = new BlockOakShutters();
 
     public static void init(){
-        GameRegistry.registerBlock(shutters, "shutters");
+        GameRegistry.registerBlock(oakShutter, "oakShutters");
     }
 }
