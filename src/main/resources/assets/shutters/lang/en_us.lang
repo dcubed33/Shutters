@@ -1,3 +1,8 @@
 item.shutters:blindsCatalog.name=Blinds Catalog
+title.shutters:acadiaShutters.name=Acadia Shutters
+title.shutters:birchShutters.name=Birch Shutters
+title.shutters:darkOakShutters.name=Dark Oak Shutters
+title.shutters:jungleShutters.name=Jungle Shutters
 title.shutters:oakShutters.name=Oak Shutters
+title.shutters:spruceShutters.name=Spruce Shutters
 itemGroup.shutters=Shutters
