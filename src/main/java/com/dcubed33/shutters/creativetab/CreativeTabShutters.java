@@ -6,15 +6,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class CreativeTabShutters {
-    public static final CreativeTabs Shutters_TAB = new CreativeTabs(Reference.MOD_ID){
+    public static final CreativeTabs Shutters_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()){
         @Override
         public Item getTabIconItem() {
             return ModItems.blindsCatalog;
-        }
-
-        @Override
-        public String getTranslatedTabLabel(){
-            return "Shutters";
         }
     };
 }
