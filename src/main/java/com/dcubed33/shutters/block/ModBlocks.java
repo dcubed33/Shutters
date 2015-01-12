@@ -10,7 +10,7 @@ public class ModBlocks {
     public static final BlockMain birchShutter = new BlockBirchShutters();
     public static final BlockMain spruceShutter = new BlockSpruceShutters();
     public static final BlockMain jungleShutter = new BlockJungleShutters();
-    public static final BlockMain acadiaShutter = new BlockAcadiaShutters();
+    public static final BlockMain acaciaShutter = new BlockAcaciaShutters();
     public static final BlockMain darkOakShutter = new BlockDarkOakShutters();
 
     public static void init(){
@@ -18,7 +18,7 @@ public class ModBlocks {
         GameRegistry.registerBlock(birchShutter, "birchShutters");
         GameRegistry.registerBlock(spruceShutter, "spruceShutters");
         GameRegistry.registerBlock(jungleShutter, "jungleShutters");
-        GameRegistry.registerBlock(acadiaShutter, "acadiaShutters");
+        GameRegistry.registerBlock(acaciaShutter, "acaciaShutters");
         GameRegistry.registerBlock(darkOakShutter, "darkOakShutters");
     }
 }
