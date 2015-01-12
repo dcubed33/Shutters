@@ -1,5 +1,6 @@
 package com.dcubed33.shutters.item;
 
+import com.dcubed33.shutters.creativetab.CreativeTabShutters;
 import com.dcubed33.shutters.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -11,6 +12,7 @@ import net.minecraft.item.ItemStack;
 public class ItemMain extends Item {
     public ItemMain(){
         super();
+        this.setCreativeTab(CreativeTabShutters.Shutters_TAB);
     }
 
     @Override
