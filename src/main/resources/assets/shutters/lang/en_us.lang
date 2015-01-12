@@ -1,2 +1,3 @@
 item.shutters:blindsCatalog.name=Blinds Catalog
-title.shutters:shutters.name=Shutters
+title.shutters:oakShutters.name=Oak Shutters
+itemGroup.shutters=Shutters
