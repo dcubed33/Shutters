@@ -9,7 +9,7 @@ public class CreativeTabShutters {
     public static final CreativeTabs Shutters_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()){
         @Override
         public Item getTabIconItem() {
-            return ModItems.blindsCatalog;
+            return ModItems.shuttersCatalog;
         }
     };
 }
