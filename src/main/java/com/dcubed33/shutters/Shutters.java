@@ -1,8 +1,10 @@
 package com.dcubed33.shutters;
 
-import com.dcubed33.shutters.block.ModBlocks;
+import com.dcubed33.shutters.init.ModBlocks;
 import com.dcubed33.shutters.handler.ConfigurationHandler;
 import com.dcubed33.shutters.init.ModItems;
+import com.dcubed33.shutters.init.OreDict;
+import com.dcubed33.shutters.init.Recipes;
 import com.dcubed33.shutters.proxy.IProxy;
 import com.dcubed33.shutters.reference.Reference;
 import com.dcubed33.shutters.utility.LogHelper;
@@ -12,6 +14,9 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY)
 public class Shutters {
@@ -35,6 +40,8 @@ public class Shutters {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
         LogHelper.info("Initialization Complete!");
+        Recipes.init();
+        OreDict.init();
     }
 
     @Mod.EventHandler
