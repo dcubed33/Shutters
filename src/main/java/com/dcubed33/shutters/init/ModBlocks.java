@@ -1,5 +1,6 @@
-package com.dcubed33.shutters.block;
+package com.dcubed33.shutters.init;
 
+import com.dcubed33.shutters.block.*;
 import com.dcubed33.shutters.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
