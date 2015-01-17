@@ -2,12 +2,7 @@ package com.dcubed33.shutters.block;
 
 import com.dcubed33.shutters.creativetab.CreativeTabShutters;
 import com.dcubed33.shutters.init.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.entity.item.EntityItem;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 import java.util.Random;
 
